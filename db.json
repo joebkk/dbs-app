@@ -1,8 +1,22 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "hello"
+      "id" : 1,
+      "regiod_code" : "HK",
+      "db_name" : "BIP_SDB",
+      "hist_table" : "S_D212003_GCFRX7_HIST",
+      "hist_table_desc" : "Credit Card - Card Master",
+      "column_name" : "CASH_AVAIL_CREDIT",
+      "sensitivity" : "NOT SENSITIVE"
+    },
+    {
+      "id" : 2,
+      "regiod_code" : "HK",
+      "db_name" : "BIP_SDB",
+      "hist_table" : "S_D212003_GCFRX7_HIST",
+      "hist_table_desc" : "Credit Card - Card Master",
+      "column_name" : "CARD_FEE_TBL",
+      "sensitivity" : "NOT SENSITIVE"
     }
   ],
   "profile": {
