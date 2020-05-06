@@ -1,22 +1,64 @@
 {
   "posts": [
     {
-      "id" : 1,
+      "id" : '4vnVuEPalM',
       "regiod_code" : "HK",
       "db_name" : "BIP_SDB",
-      "hist_table" : "S_D212003_GCFRX7_HIST",
-      "hist_table_desc" : "Credit Card - Card Master",
-      "column_name" : "CASH_AVAIL_CREDIT",
-      "sensitivity" : "NOT SENSITIVE"
+      "data_source_cd" : "APPS_FLYR",
+      "data_source_desc" : "MOBILE MARKETING ANALYTICS AND ATTRIBUTION PLATFORM",
+      "tables": 
+      [
+        {
+          "name" : "S_D943010_SANDR_RAWINS_HIST",
+          "desc" : "IT CONTAINS THE SIGMA ANDRIOD RAW INSTALLS REPORT",
+          "score" : 0.67,
+          "columns" : [
+            {"name" : "CASH_AVAIL_CREDIT", "sensitivity" : "NOT SENSITIVE", "score" : 0.65},
+            {"name" : "SUB_PROD_CDE", "sensitivity" : "NOT SENSITIVE", "score" : 0.64}
+          ]
+        },
+        {
+          "name" : "S_D139096_FRDTINSCRPMT_HIST",
+          "desc" : "03483 - FUTURE DATED INSTANT CREDIT CARD PAYMENT",
+          "score" : 0.62,
+          "columns" : [
+            {"name" : "CASH_AVAIL_CREDIT", "sensitivity" : "NOT SENSITIVE", "score" : 0.64},
+            {"name" : "SUB_PROD_CDE", "sensitivity" : "NOT SENSITIVE", "score" : 0.68}
+          ]
+        }
+      ]
     },
     {
-      "id" : 2,
-      "regiod_code" : "HK",
+      "id" : 'Qff9myiRaa',
+      "regiod_code" : "SG",
       "db_name" : "BIP_SDB",
-      "hist_table" : "S_D212008_AMRM_HIST",
-      "hist_table_desc" : "Credit Card Relationship",
-      "column_name" : "END_DT",
-      "sensitivity" : "NOT SENSITIVE"
+      "data_source_cd" : "RES",
+      "data_source_desc" : "DEBT MANAGER SINGAPORE FACILITATE THE COLLECTION OF BAD DEBTS ARISING FROM OVERDRAFT FACILITIES, CREDIT CARD AND LOANS",
+      "tables": 
+      [
+        {
+          "name" : "S_D135044_TADEBTP_HIST",
+          "desc" : "DETAILS OF OLD NAME AND ADDRESS CHANGES APPLIED TO A NAME",
+          "score" : 0.67,
+          "columns" : 
+          [
+            {"name" : "TAUEDT", "sensitivity" : "NOT SENSITIVE", "score" : 0.65},
+            {"name" : "STRT_NAME2", "sensitivity" : "PHYSICAL_ADDRESS", "score" : 0.64}
+          ]
+        },
+        {
+          "name" : "S_D176155_WBSP_HIST",
+          "desc" : "THIRD PARTY FUND TRANSFER CUSTOMER PAYEE DETAILS",
+          "score" : 0.62,
+          "columns" : 
+          [
+            {"name" : "EFFECT_DATE", "sensitivity" : "NOT SENSITIVE", "score" : 0.64},
+            {"name" : "USER_AGENT", "sensitivity" : "NOT SENSITIVE", "score" : 0.68},
+            {"name" : "OTT_AT_QUOTE_CCY_IND", "sensitivity" : "NOT SENSITIVE", "score" : 0.68},
+            {"name" : "INT_SLAB_SRL_NUM", "sensitivity" : "NOT SENSITIVE", "score" : 0.68}
+          ]
+        }
+      ]
     }
   ],
   "profile": {
