@@ -4,8 +4,8 @@
       "id": "4vnVuEPalM",
       "regiod_code": "HK",
       "db_name": "BIP_SDB",
-      "data_source_cd": "APPS_FLYR",
-      "data_source_desc": "MOBILE MARKETING ANALYTICS AND ATTRIBUTION PLATFORM",
+      "data_source_cd": "TDS",
+      "data_source_desc": "Transactional Data Store",
       "tables": [
         {
           "name": "S_D943010_SANDR_RAWINS_HIST",
@@ -47,8 +47,8 @@
       "id": "Qff9myiRaa",
       "regiod_code": "SG",
       "db_name": "BIP_SDB",
-      "data_source_cd": "RES",
-      "data_source_desc": "DEBT MANAGER SINGAPORE FACILITATE THE COLLECTION OF BAD DEBTS ARISING FROM OVERDRAFT FACILITIES, CREDIT CARD AND LOANS",
+      "data_source_cd": "WBSP",
+      "data_source_desc": "Retail internet banking (Host)",
       "tables": [
         {
           "name": "S_D135044_TADEBTP_HIST",
