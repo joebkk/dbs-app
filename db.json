@@ -11,6 +11,7 @@
           "name": "S_D943010_SANDR_RAWINS_HIST",
           "desc": "IT CONTAINS THE SIGMA ANDRIOD RAW INSTALLS REPORT",
           "score": 0.69,
+          "checked": false,
           "columns": [
             {
               "name": "CASH_AVAIL_CREDIT",
@@ -28,6 +29,7 @@
           "name": "S_D139096_FRDTINSCRPMT_HIST",
           "desc": "03483 - FUTURE DATED INSTANT CREDIT CARD PAYMENT",
           "score": 0.62,
+          "checked": false,
           "columns": [
             {
               "name": "CASH_AVAIL_CREDIT",
@@ -54,6 +56,7 @@
           "name": "S_D135044_TADEBTP_HIST",
           "desc": "DETAILS OF OLD NAME AND ADDRESS CHANGES APPLIED TO A NAME",
           "score": 0.67,
+          "checked": false,
           "columns": [
             {
               "name": "TAUEDT",
@@ -71,6 +74,7 @@
           "name": "S_D176155_WBSP_HIST",
           "desc": "THIRD PARTY FUND TRANSFER CUSTOMER PAYEE DETAILS",
           "score": 0.62,
+          "checked": false,
           "columns": [
             {
               "name": "EFFECT_DATE",
