@@ -14,13 +14,18 @@
           "checked": false,
           "columns": [
             {
-              "name": "CASH_AVAIL_CREDIT",
+              "name": "RETARGETING_CONVERSION_TYPE",
               "sensitivity": "NOT SENSITIVE",
               "score": 0.65
             },
             {
-              "name": "SUB_PROD_CDE",
+              "name": "OTT_AT_QUOTE_CCY_IND",
               "sensitivity": "NOT SENSITIVE",
+              "score": 0.64
+            },
+            {
+              "name": "A_NARRATION",
+              "sensitivity": "TRANSACTION_TEXT",
               "score": 0.64
             }
           ]
@@ -38,6 +43,24 @@
             },
             {
               "name": "SUB_PROD_CDE",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.68
+            }
+          ]
+        },
+        {
+          "name": "S_D135044_TADEBTP_HIST",
+          "desc": "DEBT MANAGER SINGAPORE FACILITATE THE COLLECTION OF BAD DEBTS ARISING FROM OVERDRAFT FACILITIES, CREDIT CARD AND LOANS",
+          "score": 0.62,
+          "checked": false,
+          "columns": [
+            {
+              "name": "CTPARTY_CIN",
+              "sensitivity": "CIN",
+              "score": 0.64
+            },
+            {
+              "name": "PHONEUPDPHONECTRYCODE10",
               "sensitivity": "NOT SENSITIVE",
               "score": 0.68
             }
