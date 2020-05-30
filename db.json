@@ -320,28 +320,6 @@
                ]
             }
          ]
-      },
-      {
-         "id":"n2jdbju5kb",
-         "regiod_code":"HK",
-         "db_name":"BIP_SDB",
-         "data_source_cd":"AVALOQ",
-         "data_source_desc":"HK Avaloq Private Banking Core Product System",
-         "tables":[
-            {
-               "name":"S_D270013_BP_FATCA_HIST",
-               "desc":"BP HK FATCA",
-               "score":0.47,
-               "checked":false,
-               "columns":[
-                  {
-                     "name":"CUST_TIN",
-                     "sensitivity":"CIN",
-                     "score":0.25
-                  }
-               ]
-            }
-         ]
       }
    ],
    "profile":{
