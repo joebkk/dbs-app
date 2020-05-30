@@ -122,28 +122,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "zrplyvbq7b",
-      "regiod_code": "IN",
-      "db_name": "BIP_SDB",
-      "data_source_cd": "MLC",
-      "data_source_desc": "MUREX LIMIT CONTROL",
-      "tables": [
-        {
-          "name": "S_M152004_MLCUTIL_CPE_HIST",
-          "desc": "MLC EXPOSURE FILE FOR BANK & NON-BANK",
-          "score": 0.47,
-          "checked": false,
-          "columns": [
-            {
-              "name": "OTHER_UTIL_4",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.25
-            }
-          ]
-        }
-      ]
     }
   ],
   "profile": {
