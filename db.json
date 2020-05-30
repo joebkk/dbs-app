@@ -122,6 +122,226 @@
           ]
         }
       ]
+    },
+    	{
+      "id": "vskzsmv2qq",
+      "regiod_code": "ID",
+      "db_name": "BIPIN_SDB",
+      "data_source_cd": "AQSP",
+      "data_source_desc": "FOREIGN CURRENCY FIXED DEPOSIT",
+      "tables": [
+        {
+          "name": "S_M103053_TRANSDR_HIST",
+          "desc": "FOREIGN CURRENCY FIXED DEPOSIT",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "DR_SETL_TYP",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "h8r6fpcoeh",
+      "regiod_code": "SG",
+      "db_name": "BIP_SDB",
+      "data_source_cd": "CASP",
+      "data_source_desc": "CURRENT ACCOUNT SYSTEM",
+      "tables": [
+        {
+          "name": "S_D105047_CARATE_HIST",
+          "desc": "DAILY CREDIT RATES FOR CORPORATE ACCOUNTS",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "CAP_MARGIN_7",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.67
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "zrplyvbq7b",
+      "regiod_code": "IN",
+      "db_name": "BIP_SDB",
+      "data_source_cd": "MLC",
+      "data_source_desc": "MUREX LIMIT CONTROL",
+      "tables": [
+        {
+          "name": "S_M152004_MLCUTIL_CPE_HIST",
+          "desc": "MLC EXPOSURE FILE FOR BANK & NON-BANK",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "OTHER_UTIL_4",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "9hjt89gnj3",
+      "regiod_code": "SG",
+      "db_name": "BIP_SDB",
+      "data_source_cd": "LEAPS",
+      "data_source_desc": "LEAPS SYSTEM",
+      "tables": [
+        {
+          "name": "S_D172104_LOSA_CST_CST_HIST",
+          "desc": "CUST CB CONSENT",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "HAS_CUST_SUBMIT_APP_FORM",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "er5ie7tz0z",
+      "regiod_code": "IN",
+      "db_name": "BIPIN_SDB",
+      "data_source_cd": "IPS_IN",
+      "data_source_desc": "INTEGRATION PLATFORM (IP SOUTH)",
+      "tables": [
+        {
+          "name": "S_D306041_RWDS_RES_HIST",
+          "desc": "THIS TABLE GENRATES THE RESPONSE FILE FOR THE REWARDS RESPONSE FROM CMP",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "AS_OF_DATE",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "2snsdmlwz1",
+      "regiod_code": "TW",
+      "db_name": "BIPTW_SDB",
+      "data_source_cd": "CBTW_FC",
+      "data_source_desc": "FINACLE CORE BANKING APPLICATION FOR CASA, LENDING AND TERM DEPOSITS - TAIWAN THROUGH FINANCIAL CONSOLIDATOR",
+      "tables": [
+        {
+          "name": "S_D601014_FEE_HIST",
+          "desc": "FEE CHARGE",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "TOTAL_COLLECTED_AMT",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "vcni7uwaux",
+      "regiod_code": "ID",
+      "db_name": "BIPID_SDB",
+      "data_source_cd": "MNLID_CBGBA",
+      "data_source_desc": "MANUAL FILE FOR INDONESIA FOR PROCESSING CONSUMER BANKING GROUP BUSINESS ANALYTICS",
+      "tables": [
+        {
+          "name": "S_D822002_MPRF_CUSTBGT_HIST",
+          "desc": "MONTHLY PERFORMANCE CUSTOMER BUDGET ID",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "QUALIFIED_CUST",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "7es2tj2ih0",
+      "regiod_code": "SG",
+      "db_name": "BIP_SDB",
+      "data_source_cd": "RNSP",
+      "data_source_desc": "DBS THIRD PARTY BANK INFORMATION",
+      "tables": [
+        {
+          "name": "S_D189002_RNEVNTCO_HIST",
+          "desc": "RNSP EVENT FILE FOR CASH ORDER",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "CDMSGPRTY_PRIORITY",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "nzqtat0w97",
+      "regiod_code": "CN",
+      "db_name": "BIPIN_SDB",
+      "data_source_cd": "AQSP",
+      "data_source_desc": "Foreign Currency Deposits/Fixed Deposits System",
+      "tables": [
+        {
+          "name": "S_M103053_TRANSDR_HIST",
+          "desc": "FOREIGN CURRENCY FIXED DEPOSIT",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "DR_SETL_TYP",
+              "sensitivity": "NOT SENSITIVE",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "n2jdbju5kb",
+      "regiod_code": "HK",
+      "db_name": "BIP_SDB",
+      "data_source_cd": "AVALOQ",
+      "data_source_desc": "HK AVALOQ PRIVATE BANKING CORE PRODUCT SYSTEM",
+      "tables": [
+        {
+          "name": "S_D270013_BP_FATCA_HIST",
+          "desc": "BP HK FATCA",
+          "score": 0.47,
+          "checked": false,
+          "columns": [
+            {
+              "name": "CUST_TIN",
+              "sensitivity": "CIN",
+              "score": 0.25
+            }
+          ]
+        }
+      ]
     }
   ],
   "profile": {
