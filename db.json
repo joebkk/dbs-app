@@ -1,130 +1,350 @@
 {
-  "posts": [
-    {
-      "id": "4vnVuEPalM",
-      "regiod_code": "HK",
-      "db_name": "BIP_SDB",
-      "data_source_cd": "TDS",
-      "data_source_desc": "Transactional Data Store",
-      "tables": [
-        {
-          "name": "S_D943010_SANDR_RAWINS_HIST",
-          "desc": "IT CONTAINS THE SIGMA ANDRIOD RAW INSTALLS REPORT",
-          "score": 0.69,
-          "checked": false,
-          "columns": [
+   "posts":[
+      {
+         "id":"4vnVuEPalM",
+         "regiod_code":"HK",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"TDS",
+         "data_source_desc":"Transactional Data Store",
+         "tables":[
             {
-              "name": "RETARGETING_CONVERSION_TYPE",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.65
+               "name":"S_D943010_SANDR_RAWINS_HIST",
+               "desc":"IT CONTAINS THE SIGMA ANDRIOD RAW INSTALLS REPORT",
+               "score":0.69,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"RETARGETING_CONVERSION_TYPE",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.65
+                  },
+                  {
+                     "name":"OTT_AT_QUOTE_CCY_IND",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.64
+                  },
+                  {
+                     "name":"A_NARRATION",
+                     "sensitivity":"TRANSACTION_TEXT",
+                     "score":0.64
+                  }
+               ]
             },
             {
-              "name": "OTT_AT_QUOTE_CCY_IND",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.64
+               "name":"S_D139096_FRDTINSCRPMT_HIST",
+               "desc":"03483 - FUTURE DATED INSTANT CREDIT CARD PAYMENT",
+               "score":0.62,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"CASH_AVAIL_CREDIT",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.64
+                  },
+                  {
+                     "name":"SUB_PROD_CDE",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.68
+                  }
+               ]
             },
             {
-              "name": "A_NARRATION",
-              "sensitivity": "TRANSACTION_TEXT",
-              "score": 0.64
+               "name":"S_M103053_TRANSDR_HIST",
+               "desc":"DEBT MANAGER SINGAPORE FACILITATE THE COLLECTION OF BAD DEBTS ARISING FROM OVERDRAFT FACILITIES, CREDIT CARD AND LOANS",
+               "score":0.62,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"CTPARTY_CIN",
+                     "sensitivity":"CIN",
+                     "score":0.64
+                  },
+                  {
+                     "name":"PHONEUPDPHONECTRYCODE10",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.68
+                  }
+               ]
             }
-          ]
-        },
-        {
-          "name": "S_D139096_FRDTINSCRPMT_HIST",
-          "desc": "03483 - FUTURE DATED INSTANT CREDIT CARD PAYMENT",
-          "score": 0.62,
-          "checked": false,
-          "columns": [
+         ]
+      },
+      {
+         "id":"Qff9myiRaa",
+         "regiod_code":"SG",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"WBSP",
+         "data_source_desc":"Retail Internet Banking (Host)",
+         "tables":[
             {
-              "name": "CASH_AVAIL_CREDIT",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.64
+               "name":"S_D135044_TADEBTP_HIST",
+               "desc":"DETAILS OF OLD NAME AND ADDRESS CHANGES APPLIED TO A NAME",
+               "score":0.67,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"TAUEDT",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.65
+                  },
+                  {
+                     "name":"STRT_NAME2",
+                     "sensitivity":"PHYSICAL_ADDRESS",
+                     "score":0.64
+                  }
+               ]
             },
             {
-              "name": "SUB_PROD_CDE",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.68
+               "name":"S_D176155_WBSP_HIST",
+               "desc":"THIRD PARTY FUND TRANSFER CUSTOMER PAYEE DETAILS",
+               "score":0.62,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"EFFECT_DATE",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.64
+                  },
+                  {
+                     "name":"USER_AGENT",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.68
+                  },
+                  {
+                     "name":"OTT_AT_QUOTE_CCY_IND",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.68
+                  },
+                  {
+                     "name":"INT_SLAB_SRL_NUM",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.68
+                  }
+               ]
             }
-          ]
-        },
-        {
-          "name": "S_M103053_TRANSDR_HIST",
-          "desc": "DEBT MANAGER SINGAPORE FACILITATE THE COLLECTION OF BAD DEBTS ARISING FROM OVERDRAFT FACILITIES, CREDIT CARD AND LOANS",
-          "score": 0.62,
-          "checked": false,
-          "columns": [
+         ]
+      },
+      {
+         "id":"vskzsmv2qq",
+         "regiod_code":"ID",
+         "db_name":"BIPIN_SDB",
+         "data_source_cd":"AQSP",
+         "data_source_desc":"Foreign Currency Fixed Deposit",
+         "tables":[
             {
-              "name": "CTPARTY_CIN",
-              "sensitivity": "CIN",
-              "score": 0.64
-            },
-            {
-              "name": "PHONEUPDPHONECTRYCODE10",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.68
+               "name":"S_M103053_TRANSDR_HIST",
+               "desc":"FOREIGN CURRENCY FIXED DEPOSIT",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"DR_SETL_TYP",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "Qff9myiRaa",
-      "regiod_code": "SG",
-      "db_name": "BIP_SDB",
-      "data_source_cd": "WBSP",
-      "data_source_desc": "Retail internet banking (Host)",
-      "tables": [
-        {
-          "name": "S_D135044_TADEBTP_HIST",
-          "desc": "DETAILS OF OLD NAME AND ADDRESS CHANGES APPLIED TO A NAME",
-          "score": 0.67,
-          "checked": false,
-          "columns": [
+         ]
+      },
+      {
+         "id":"h8r6fpcoeh",
+         "regiod_code":"SG",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"CASP",
+         "data_source_desc":"Current Account System",
+         "tables":[
             {
-              "name": "TAUEDT",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.65
-            },
-            {
-              "name": "STRT_NAME2",
-              "sensitivity": "PHYSICAL_ADDRESS",
-              "score": 0.64
+               "name":"S_D105047_CARATE_HIST",
+               "desc":"DAILY CREDIT RATES FOR CORPORATE ACCOUNTS",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"CAP_MARGIN_7",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.67
+                  }
+               ]
             }
-          ]
-        },
-        {
-          "name": "S_D176155_WBSP_HIST",
-          "desc": "THIRD PARTY FUND TRANSFER CUSTOMER PAYEE DETAILS",
-          "score": 0.62,
-          "checked": false,
-          "columns": [
+         ]
+      },
+      {
+         "id":"zrplyvbq7b",
+         "regiod_code":"IN",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"MLC",
+         "data_source_desc":"Murex Limit Control",
+         "tables":[
             {
-              "name": "EFFECT_DATE",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.64
-            },
-            {
-              "name": "USER_AGENT",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.68
-            },
-            {
-              "name": "OTT_AT_QUOTE_CCY_IND",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.68
-            },
-            {
-              "name": "INT_SLAB_SRL_NUM",
-              "sensitivity": "NOT SENSITIVE",
-              "score": 0.68
+               "name":"S_M152004_MLCUTIL_CPE_HIST",
+               "desc":"MLC EXPOSURE FILE FOR BANK & NON-BANK",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"OTHER_UTIL_4",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
             }
-          ]
-        }
-      ]
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+         ]
+      },
+      {
+         "id":"9hjt89gnj3",
+         "regiod_code":"SG",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"LEAPS",
+         "data_source_desc":"LEAPS System",
+         "tables":[
+            {
+               "name":"S_D172104_LOSA_CST_CST_HIST",
+               "desc":"CUST CB CONSENT",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"HAS_CUST_SUBMIT_APP_FORM",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"er5ie7tz0z",
+         "regiod_code":"IN",
+         "db_name":"BIPIN_SDB",
+         "data_source_cd":"IPS_IN",
+         "data_source_desc":"Integration Platform (IP SOUTH)",
+         "tables":[
+            {
+               "name":"S_D306041_RWDS_RES_HIST",
+               "desc":"THIS TABLE GENRATES THE RESPONSE FILE FOR THE REWARDS RESPONSE FROM CMP",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"AS_OF_DATE",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"2snsdmlwz1",
+         "regiod_code":"TW",
+         "db_name":"BIPTW_SDB",
+         "data_source_cd":"CBTW_FC",
+         "data_source_desc":"Finacle Core Banking for CASA",
+         "tables":[
+            {
+               "name":"S_D601014_FEE_HIST",
+               "desc":"FEE CHARGE",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"TOTAL_COLLECTED_AMT",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"vcni7uwaux",
+         "regiod_code":"ID",
+         "db_name":"BIPID_SDB",
+         "data_source_cd":"MNLID_CBGBA",
+         "data_source_desc":"Manual File for Indonesia for Processing consumer banking",
+         "tables":[
+            {
+               "name":"S_D822002_MPRF_CUSTBGT_HIST",
+               "desc":"MONTHLY PERFORMANCE CUSTOMER BUDGET ID",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"QUALIFIED_CUST",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"7es2tj2ih0",
+         "regiod_code":"SG",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"RNSP",
+         "data_source_desc":"DBS Third Party Bank Information",
+         "tables":[
+            {
+               "name":"S_D189002_RNEVNTCO_HIST",
+               "desc":"RNSP EVENT FILE FOR CASH ORDER",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"CDMSGPRTY_PRIORITY",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"nzqtat0w97",
+         "regiod_code":"CN",
+         "db_name":"BIPIN_SDB",
+         "data_source_cd":"AQSP",
+         "data_source_desc":"Foreign Currency Deposits/Fixed Deposits System",
+         "tables":[
+            {
+               "name":"S_M103053_TRANSDR_HIST",
+               "desc":"FOREIGN CURRENCY FIXED DEPOSIT",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"DR_SETL_TYP",
+                     "sensitivity":"NOT SENSITIVE",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"n2jdbju5kb",
+         "regiod_code":"HK",
+         "db_name":"BIP_SDB",
+         "data_source_cd":"AVALOQ",
+         "data_source_desc":"HK Avaloq Private Banking Core Product System",
+         "tables":[
+            {
+               "name":"S_D270013_BP_FATCA_HIST",
+               "desc":"BP HK FATCA",
+               "score":0.47,
+               "checked":false,
+               "columns":[
+                  {
+                     "name":"CUST_TIN",
+                     "sensitivity":"CIN",
+                     "score":0.25
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "profile":{
+      "name":"typicode"
+   }
 }
