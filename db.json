@@ -7,6 +7,7 @@
          "data_source_cd":"TDS",
          "data_source_desc":"Transactional Data Store",
          "checked":false,
+         "score":0.12,
          "tables":[
             {
                "name":"S_D943010_SANDR_RAWINS_HIST",
@@ -76,6 +77,7 @@
          "data_source_cd":"WBSP",
          "data_source_desc":"Retail Internet Banking (Host)",
          "checked":false,
+         "score":0.12,
          "tables":[
             {
                "name":"S_D135044_TADEBTP_HIST",
@@ -132,6 +134,7 @@
          "data_source_cd":"AQSP",
          "data_source_desc":"Foreign Currency Fixed Deposit",
          "checked":false,
+         "score":0.12,
          "tables":[
             {
                "name":"S_M103053_TRANSDR_HIST",
@@ -155,6 +158,7 @@
          "data_source_cd":"CASP",
          "data_source_desc":"Current Account System",
          "checked":false,
+         "score":0.14,
          "tables":[
             {
                "name":"S_D105047_CARATE_HIST",
@@ -178,6 +182,7 @@
          "data_source_cd":"MLC",
          "data_source_desc":"Murex Limit Control",
          "checked":false,
+         "score":0.16,
          "tables":[
             {
                "name":"S_M152004_MLCUTIL_CPE_HIST",
@@ -201,6 +206,7 @@
          "data_source_cd":"LEAPS",
          "data_source_desc":"LEAPS System",
          "checked":false,
+         "score":0.11,
          "tables":[
             {
                "name":"S_D172104_LOSA_CST_CST_HIST",
@@ -224,6 +230,7 @@
          "data_source_cd":"IPS_IN",
          "data_source_desc":"Integration Platform (IP SOUTH)",
          "checked":false,
+         "score":0.20,
          "tables":[
             {
                "name":"S_D306041_RWDS_RES_HIST",
@@ -247,6 +254,7 @@
          "data_source_cd":"CBTW_FC",
          "data_source_desc":"Finacle Core Banking for CASA",
          "checked":false,
+         "score":0.18,
          "tables":[
             {
                "name":"S_D601014_FEE_HIST",
@@ -270,6 +278,7 @@
          "data_source_cd":"MNLID_CBGBA",
          "data_source_desc":"Manual File for Indonesia for Processing consumer banking",
          "checked":false,
+         "score":0.45,
          "tables":[
             {
                "name":"S_D822002_MPRF_CUSTBGT_HIST",
@@ -293,6 +302,7 @@
          "data_source_cd":"RNSP",
          "data_source_desc":"DBS Third Party Bank Information",
          "checked":false,
+         "score":0.78,
          "tables":[
             {
                "name":"S_D189002_RNEVNTCO_HIST",
@@ -302,29 +312,6 @@
                "columns":[
                   {
                      "name":"CDMSGPRTY_PRIORITY",
-                     "sensitivity":"NOT SENSITIVE",
-                     "score":0.25
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "id":"nzqtat0w97",
-         "regiod_code":"CN",
-         "db_name":"BIPIN_SDB",
-         "data_source_cd":"AQSP",
-         "data_source_desc":"Foreign Currency Deposits/Fixed Deposits System",
-         "checked":false,
-         "tables":[
-            {
-               "name":"S_M103053_TRANSDR_HIST",
-               "desc":"FOREIGN CURRENCY FIXED DEPOSIT",
-               "score":0.47,
-               "checked":false,
-               "columns":[
-                  {
-                     "name":"DR_SETL_TYP",
                      "sensitivity":"NOT SENSITIVE",
                      "score":0.25
                   }
